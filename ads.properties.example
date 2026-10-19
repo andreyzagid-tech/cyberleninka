@@ -10,6 +10,7 @@ appodeal.engineering=
 appodeal.humanities=
 appodeal.agriculture=
 appodeal.social=
+appodeal.full=
 
 # --- AdMob App ID (нужен, если в Appodeal включена сеть AdMob) ---
 # Формат: ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY
@@ -19,3 +20,4 @@ admob.engineering=
 admob.humanities=
 admob.agriculture=
 admob.social=
+admob.full=

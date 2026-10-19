@@ -1,6 +1,6 @@
-# Выкладка в RuStore — 6 приложений
+# Выкладка в RuStore — 7 приложений
 
-Один кодбук → 6 отдельных приложений (по разделу рубрикатора ОЭСР).
+Один кодбук → 7 приложений: 6 по разделам рубрикатора ОЭСР + полное (все рубрики).
 
 | Приложение | package | Раздел |
 |---|---|---|
@@ -10,11 +10,12 @@
 | Гуманитарные науки | `ru.cyberleninka.humanities` | Гуманитарные науки |
 | Сельское хозяйство | `ru.cyberleninka.agriculture` | Сельскохозяйственные науки |
 | Социальные науки | `ru.cyberleninka.social` | Социальные науки |
+| Полная библиотека | `ru.cyberleninka.full` | Все рубрики |
 
 ## 1. Ключи Appodeal
-1. В кабинете Appodeal создайте **6 приложений** (по одному на раздел), получите **App Key** каждого.
+1. В кабинете Appodeal создайте **7 приложений** (6 разделов + полное), получите **App Key** каждого.
 2. Скопируйте `ads.properties.example` → `ads.properties` (в корне проекта) и впишите ключи:
-   `appodeal.medical`, `appodeal.natural`, `appodeal.engineering`, `appodeal.humanities`, `appodeal.agriculture`, `appodeal.social`.
+   `appodeal.medical`, `appodeal.natural`, `appodeal.engineering`, `appodeal.humanities`, `appodeal.agriculture`, `appodeal.social`, `appodeal.full`.
 3. Если включена сеть **AdMob** — впишите и `admob.<flavor>` (App ID вида `ca-app-pub-...~...`).
 4. `ads.properties` в `.gitignore` — в репозиторий не попадёт.
 
@@ -31,12 +32,10 @@
 Готовые файлы также лежат в папке `dist/`.
 
 ## 4. Политика конфиденциальности (GitHub Pages)
-1. Залейте папку `docs/` в GitHub-репозиторий.
-2. В настройках репозитория: **Settings → Pages → Source: Deploy from branch → main /(root или /docs)**.
-3. Получится адрес `https://<ЛОГИН>.github.io/<РЕПО>/`.
-4. Замените в `docs/index.html` плейсхолдеры `__РАЗРАБОТЧИК__`, `__EMAIL__`, `__ДАТА__`.
-5. В приложении: `app/src/main/res/values/strings.xml` → `privacy_url` укажите этот адрес (сейчас там плейсхолдер `USERNAME`).
-6. В карточке каждого приложения в RuStore укажите этот же адрес как «Политика конфиденциальности».
+Уже размещена: **https://andreyzagid-tech.github.io/cyberleninka/** (репозиторий `andreyzagid-tech/cyberleninka`, Pages: main `/docs`).
+1. В карточке каждого из 7 приложений в RuStore укажите этот адрес как «Политика конфиденциальности».
+2. При правках текста правьте `docs/index.html` и пушьте — страница обновится автоматически.
+3. Адрес в приложении задан в `app/src/main/res/values/strings.xml` → `privacy_url` (при смене — поменять и пересобрать).
 
 ## 5. Чек-лист карточки в RuStore (для каждого из 6)
 - [ ] Название (≤ 50 симв.)

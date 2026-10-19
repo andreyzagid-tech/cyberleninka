@@ -137,6 +137,14 @@ android {
             buildConfigField("String", "APPODEAL_KEY", "\"${adsProp("appodeal.social", appodealTestKey)}\"")
             manifestPlaceholders["admobAppId"] = adsProp("admob.social", admobTestAppId)
         }
+        create("full") {
+            dimension = "section"
+            applicationId = "ru.cyberleninka.full"
+            buildConfigField("String", "SECTION_TITLE", "\"Полная библиотека\"")
+            buildConfigField("String", "SECTION_SLUGS", "\"*\"")
+            buildConfigField("String", "APPODEAL_KEY", "\"${adsProp("appodeal.full", appodealTestKey)}\"")
+            manifestPlaceholders["admobAppId"] = adsProp("admob.full", admobTestAppId)
+        }
     }
 
     compileOptions {

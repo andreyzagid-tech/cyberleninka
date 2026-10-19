@@ -15,6 +15,9 @@ object Sections {
         .map { it.trim() }
         .filter { it.isNotEmpty() }
 
+    /** Полное приложение: SECTION_SLUGS = "*" — включает все рубрики библиотеки. */
+    private val all: Boolean = slugs.contains("*")
+
     /** Рубрики, входящие в раздел (в порядке рубрикатора). */
-    val categories: List<Category> get() = Categories.all.filter { it.slug in slugs }
+    val categories: List<Category> get() = if (all) Categories.all else Categories.all.filter { it.slug in slugs }
 }
