@@ -1,0 +1,21 @@
+# Скопируйте этот файл в ads.properties и заполните реальные значения.
+# ads.properties НЕ попадает в репозиторий (см. .gitignore).
+# Пока файла нет или ключи пустые — используются тестовые ключи Appodeal/AdMob,
+# а реклама остаётся без реального трафика.
+
+# --- Appodeal App Key (по одному на каждое приложение, из кабинета Appodeal) ---
+appodeal.medical=
+appodeal.natural=
+appodeal.engineering=
+appodeal.humanities=
+appodeal.agriculture=
+appodeal.social=
+
+# --- AdMob App ID (нужен, если в Appodeal включена сеть AdMob) ---
+# Формат: ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY
+admob.medical=
+admob.natural=
+admob.engineering=
+admob.humanities=
+admob.agriculture=
+admob.social=

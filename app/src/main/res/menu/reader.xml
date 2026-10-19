@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_bookmark"
+        android:checkable="true"
+        android:icon="@drawable/ic_star_outline"
+        android:title="@string/bookmark"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_pdf"
+        android:icon="@drawable/ic_download"
+        android:title="@string/save_pdf"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_open"
+        android:icon="@drawable/ic_open"
+        android:title="@string/open_site"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_copy"
+        android:icon="@drawable/ic_info"
+        android:title="@string/copied"
+        app:showAsAction="never" />
+</menu>

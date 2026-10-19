@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="reader_title">#B7C4FF</color>
+    <color name="reader_muted">#8FA6AE</color>
+    <color name="reader_surface">#1E1E1E</color>
+    <color name="reader_divider">#37474F</color>
+</resources>

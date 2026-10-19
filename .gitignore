@@ -1,0 +1,27 @@
+# Android / Gradle
+.gradle/
+build/
+*/build/
+captures/
+.cxx/
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+local.properties
+
+# Секреты и ключи (не коммитить!)
+ads.properties
+keystore.properties
+*.jks
+*.keystore
+
+# Собранные APK
+dist/
+*.apk
+*.aab
+
+# OS
+.DS_Store
+Thumbs.db

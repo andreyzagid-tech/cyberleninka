@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">КиберЛенинка</string>
+    <string name="tab_search">Поиск</string>
+    <string name="tab_browse">Рубрики</string>
+    <string name="tab_library">Библиотека</string>
+
+    <string name="search_hint">Поиск по статьям…</string>
+    <string name="search_empty">Введите запрос — например «машинное обучение».</string>
+    <string name="search_result">Найдено: %1$d. Показаны лучшие %2$d, полные тексты доступны офлайн после прочтения.</string>
+    <string name="search_error">Ошибка поиска: %1$s</string>
+
+    <string name="offline_title">Оффлайн-библиотека</string>
+    <string name="offline_state">Нажмите «Скачать все», чтобы построить локальный индекс статей.</string>
+    <string name="offline_counts">В базе: %1$d статей · с текстом: %2$d · обновлено: %3$s</string>
+    <string name="offline_hint">Скачивание идёт по рубрикам этого раздела, по 20 статей на страницу. Процесс можно прервать и продолжить — прогресс сохраняется. Не выключайте приложение.</string>
+    <string name="crawl_all">Скачать все</string>
+    <string name="stop">Стоп</string>
+    <string name="categories">Рубрики</string>
+    <string name="crawl_category">Скачать рубрику в оффлайн</string>
+    <string name="crawl_started">Загрузка индекса запущена</string>
+    <string name="crawl_finished">Индекс обновлён: %1$d статей</string>
+    <string name="crawl_category_started">Скачивание рубрики «%1$s»</string>
+    <string name="crawl_stopped">Загрузка остановлена</string>
+    <string name="about_more">О приложении</string>
+    <string name="about_privacy">Политика конфиденциальности</string>
+    <!-- Замените на адрес вашей политики на GitHub Pages -->
+    <string name="privacy_url" translatable="false">https://USERNAME.github.io/cyberleninka/</string>
+    <string name="clear_cache">Очистить офлайн-базу</string>
+    <string name="clear_cache_done">Оффлайн-база очищена</string>
+    <string name="confirm_clear">Удалить все скачанные статьи, закладки и историю?</string>
+
+    <string name="list_empty">Пока пусто. Откройте рубрику — статьи появятся здесь.</string>
+    <string name="library_empty">Пока пусто: закладок и истории нет.</string>
+    <string name="tab_bookmarks">Закладки</string>
+    <string name="tab_history">История</string>
+    <string name="tab_all">Всё в базе</string>
+
+    <string name="reader">Чтение</string>
+    <string name="loading">Загрузка…</string>
+    <string name="load_text">Загрузить полный текст</string>
+    <string name="reader_error">Не удалось загрузить: %1$s</string>
+    <string name="bookmark">В закладки</string>
+    <string name="unbookmark">Убрать из закладок</string>
+    <string name="save_pdf">Сохранить PDF</string>
+    <string name="open_site">Открыть на сайте</string>
+    <string name="share">Поделиться</string>
+    <string name="pdf_saved">PDF сохранён: %1$s</string>
+    <string name="pdf_error">Не удалось сохранить PDF: %1$s</string>
+    <string name="no_pdf_app">Нет приложения для открытия PDF</string>
+    <string name="no_browser">Нет приложения для открытия ссылки</string>
+    <string name="copied">Ссылка скопирована</string>
+    <string name="text_saved">Текст сохранён в оффлайн-базу</string>
+    <string name="source">Источник: cyberleninka.ru</string>
+    <string name="year_only">%1$d</string>
+</resources>
