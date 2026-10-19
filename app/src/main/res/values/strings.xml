@@ -25,7 +25,7 @@
     <string name="about_more">О приложении</string>
     <string name="about_privacy">Политика конфиденциальности</string>
     <!-- Замените на адрес вашей политики на GitHub Pages -->
-    <string name="privacy_url" translatable="false">https://USERNAME.github.io/cyberleninka/</string>
+    <string name="privacy_url" translatable="false">https://andreyzagid-tech.github.io/cyberleninka/</string>
     <string name="clear_cache">Очистить офлайн-базу</string>
     <string name="clear_cache_done">Оффлайн-база очищена</string>
     <string name="confirm_clear">Удалить все скачанные статьи, закладки и историю?</string>
